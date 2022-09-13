@@ -1,0 +1,73 @@
+.select {
+    margin-left: 1%;
+}
+
+input{
+    border-bottom: 2px solid rgba(0, 0, 255, 0.74);
+    border-left: 0px solid white;
+    border-right: 0px solid white;
+    border-top: 0px solid white;
+}
+
+label{
+    font-size: large;
+}
+
+.Title {
+    color: blue;
+    border-bottom: 3px solid blue;
+    width: 560px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.form{
+    margin-left: 12%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.parTwo{
+   margin-left: 20%;
+}
+
+.PageContainer {
+    border: 0px solid blue;
+    border-radius: 25px;
+    width: 600px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 28%;
+    margin-top: 3%;
+    box-shadow: 2px 2px 10px 2px rgba(93, 93, 219, 0.466);
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.group1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+.check > label {
+    margin-left: 5%;
+    font-size: medium;
+}
+
+.bouton{
+    margin-left: 10%;
+    margin-top:5%;
+}
+
+.btn1 {
+    border: 0px;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    margin-left: 5%;
+}
