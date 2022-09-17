@@ -62,7 +62,7 @@ label{
     margin-top:5%;
 }
 
-.btn1 {
+.btn3 {
     border: 0px;
     background-color: red;
     color: white;
@@ -70,4 +70,13 @@ label{
     height: 38px;
     border-radius: 5px;
     margin-left: 5%;
+}
+.btn4 {
+    border: 0px;
+    background-color: rgb(40, 40, 221);
+    color: white;
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    margin-left: 20%;
 }

@@ -1,7 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import './form.css';
 
 
 export function Form() {
+
+const navigate = useNavigate();
+
   return (
       <>
        <div className="PageContainer">
@@ -26,30 +30,29 @@ export function Form() {
               <label htmlFor="checkbox">Type d'évènement : </label>
               <select className="select">
                   <option value="cours">Cours</option>
-                  <option value="Sortie">Sortie</option>
+                  <option value="autre">Autre</option>
               </select>
              </div>
              <div className="group">
-              <label htmlFor="text">Lieu :</label>
-              <input type="lieu"/>
+             <label htmlFor="checkbox">Lieu: </label>
+              <select className="select">
+                  <option>HEI</option>
+                  <option>Alliance Française </option>
+              </select>
              </div>
              <div className="group">
               <label htmlFor="text">Groupe :</label>
-              <input type="text" />
-              <div className="check">
-                  <label htmlFor="grp">G1</label>
-                  <input type="checkbox" />
-                  <label htmlFor="grp">G2</label>
-                  <input type="checkbox" />
-                  <label htmlFor="grp">G3</label>
-                  <input type="checkbox" />
-              </div>
+              <select className="select">
+                  <option value="G1">G1</option>
+                  <option value="G2">G2</option>
+                  <option value="G3">G3</option>
+              </select>
              </div>
             </div>
           </div>
           <div className="bouton">
-              <button className="btn btn-primary">Faire présence</button>
-              <button className="btn1">Annuler</button>
+              <button className="btn4" onClick={()=>navigate("/Presence")}>Faire présence</button>
+              <button className="btn3">Annuler</button>
             </div>
        </div>
       </>
